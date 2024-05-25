@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking System</title>
+    <link rel="stylesheet" href="t2.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Booking</h1>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/destinations">Destinations</a>
+            <a href="/bookings">My Bookings</a>
+            <a href="/contact">Contact Us</a>
+            <a href="/login">Login/Register</a>
+        </nav>
+    </header>
+    <main>
+        <form id="search-form">
+            <input type="text" id="destination" placeholder="Destination" required>
+            <input type="date" id="start-date" required>
+            <input type="date" id="end-date" required>
+            <input type="number" id="travelers" min="1" max="10" required>
+            <button type="submit">Search</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Booking</p>
+    </footer>
+    <script src="t2.js"></script>
+</body>
+</html>

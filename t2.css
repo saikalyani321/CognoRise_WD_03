@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("travelbuyers.webp");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: rgb(193, 59, 59);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+header {
+    background-color: rgb(75, 134, 87);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(14, 13, 13, 0.1);
+}
+
+input, button {
+    display: block;
+    width: 250px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #28a745;
+    width: 250px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #320808;
+    color: white;
+    text-align: center;
+    /* padding: 1rem; */
+}
